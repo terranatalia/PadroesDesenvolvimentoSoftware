@@ -38,18 +38,19 @@ class Desenvolvedor implements Funcionario, Pontuavel, Remuneravel, Programavel 
     escreverCodigo() { console.log("Escrevendo código limpo."); }
 }
 
-class Estagiario implements Funcionario, Pontuavel, Programavel {
+class Estagiario implements Funcionario, Pontuavel, Remuneravel, Programavel {
     trabalhar() { console.log("Estagiário aprendendo..."); }
     registrarPonto() { console.log("Ponto de estagiário batido."); }
-
+    receberPagamento() { console.log("Bolsa auxílio do estagiário recebida."); }
     escreverCodigo() { console.log("Escrevendo código com auxílio."); }
 }
 
 /* NOVO TIPO: FREELANCER (Parte 3)*/
 
-class Freelancer implements Funcionario, Programavel {
+class Freelancer implements Funcionario, Programavel, Remuneravel {
     trabalhar() { console.log("Freelancer iniciando projeto..."); }
     escreverCodigo() { console.log("Codando para o cliente."); }
+    receberPagamento() {console.log("Pagamento por projeto recebido."); }
 }
 
 /*SISTEMA DE ALTO NÍVEL (DIP)*/
