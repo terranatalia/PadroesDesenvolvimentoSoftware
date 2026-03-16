@@ -1,4 +1,5 @@
-ATIVIDADE PRÁTICA AULA 2 - PADRÕES DE DESENVOLVIMENTO DE SOFTWARE - INSTRUÇÕES
+# ATIVIDADE PRÁTICA AULA 2 - 09/03/2026
+Alunos: Eduardo Rezende, Fernando Meira, Gabriel Bosse, Matheus Duarte, Natália Terra.
 
 **Parte 1 — Análise (vide PDF)**
 
